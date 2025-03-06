@@ -8,7 +8,7 @@ Aplikasi ini memungkinkan pengguna untuk menerapkan berbagai filter pada foto la
 ![Screenshot aplikasi kamera](assets/praktikum%203_takepicture.jpg)
 
 ## Screenshot Hasil Running Ketika Memilih Filter
-![Screenshot aplikasi kamera](assets/praktikum%203_takepicture.jpg)
+![Screenshot aplikasi kamera](assets/praktikum%203_displayicture.jpg)
 
 
 ## Penjelasan
