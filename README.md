@@ -1,16 +1,20 @@
-# photo_filter_carousel
+# Praktikum 2: Aplikasi Kamera Flutter
 
-A new Flutter project.
+## Deskripsi
+Aplikasi ini adalah implementasi penambahan filter pada gambar menggunakan carousel di Flutter. 
+Aplikasi ini memungkinkan pengguna untuk menerapkan berbagai filter pada foto langsung dari smartphone mereka dengan antarmuka yang mudah digunakan.
 
-## Getting Started
+## Screenshot Hasil Running Ketika Mengambil Gambar
+![Screenshot aplikasi kamera](assets/praktikum%203_takepicture.jpg)
 
-This project is a starting point for a Flutter application.
+## Screenshot Hasil Running Ketika Memilih Filter
+![Screenshot aplikasi kamera](assets/praktikum%203_takepicture.jpg)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Penjelasan
+Dalam aplikasi ini saya mengimplementasikan:
+1. Penggunaan plugin camera untuk mengakses kamera perangkat
+2. Implementasi carousel untuk memilih filter yang akan diterapkan pada gambar.
+3. Preview kamera secara real-time dengan filter yang dipilih.
+4. Fungsi untuk mengambil foto dan menerapkan filter yang dipilih.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
