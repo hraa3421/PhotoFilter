@@ -25,7 +25,7 @@ Aplikasi ini merupakan implementasi kamera pada Flutter yang memungkinkan penggu
 
 ## 🖼 Screenshot Running Take Picture
 
-![Screenshot aplikasi kamera](assets/praktikum 3_takepicture.jpg).
+![Screenshot aplikasi kamera](assets/praktikum 3_displaypicture.jpg)
 
 ## 🖼 Screenshot running Display picture
 
