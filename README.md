@@ -25,11 +25,11 @@ Aplikasi ini merupakan implementasi kamera pada Flutter yang memungkinkan penggu
 
 ## 🖼 Screenshot Running Take Picture
 
-![Screenshot aplikasi kamera](assets/TakePicture.jpg)
+![Screenshot aplikasi kamera](assets/praktikum3_takepicture.jpg)
 
 ## 🖼 Screenshot running Display picture
 
-![Screenshot aplikasi kamera](assets/DisplayPicture.jpg)
+![Screenshot aplikasi kamera](assets/praktikum3_displaypicture.jpg)
 
 ## ❓ FAQ
  1. Apa yang dimaksud dengan void async pada praktikum 1?
