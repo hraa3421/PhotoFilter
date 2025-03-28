@@ -1,53 +1,84 @@
-# Praktikum 1 & Praktikum 2 : Aplikasi Kamera Flutter
 
-## Deskripsi :
-Aplikasi ini merupakan implementasi kamera pada Flutter yang memungkinkan pengguna untuk mengambil foto menggunakan kamera perangkat.
-Aplikasi ini merupakan implementasi kamera pada Flutter yang memungkinkan pengguna untuk:
-- Mengambil foto menggunakan kamera perangkat.
-- Menampilkan hasil foto yang telah diambil.
-- Menambahkan filter carousel pada foto yang diambil (gabungan dengan Praktikum 2).
+## PRAKTIKUM 1: Ambil Kamera
 
-## 🚀 Instalasi :
-1. Pastikan Flutter sudah terinstal di perangkat Anda.
-2. Clone repository ini:
-   ```sh
-   git clone https://github.com/hraa3421/PhotoFilter
-   cd PhotoFilter
-3. Install dependencies:
-   flutter pub get
-4. Jalankan aplikasi di emulator atau perangkat fisik :
-   flutter run
+**Deskripsi:**
 
-##  Fitur yang Diimplementasikan
-- Penggunaan Plugin camera → Mengakses kamera perangkat.
-- Menampilkan Hasil Foto → Foto yang diambil ditampilkan di layar.
-- Menambahkan Filter dengan Carousel → (Gabungan Praktikum 1 & 2).
+Aplikasi ini merupakan implementasi fitur kamera pada Flutter yang memungkinkan pengguna untuk mengambil foto menggunakan kamera perangkat.
 
-## 🖼 Screenshot Running Take Picture
+**Fitur Utama:**
 
-![Screenshot aplikasi kamera](assets/praktikum3_takepicture.jpg)
+* Mengambil foto menggunakan kamera perangkat.
+* Menampilkan hasil foto yang telah diambil.
 
-## 🖼 Screenshot running Display picture
+### 🖼 Screenshot Running
 
-![Screenshot aplikasi kamera](assets/praktikum3_displaypicture.jpg)
+![Screenshot aplikasi kamera](assets/kamera-flutter.gif)
+_Tampilan aplikasi saat mengambil foto._
 
-## ❓ FAQ
- 1. Apa yang dimaksud dengan void async pada praktikum 1?
-    void async dalam Dart (Flutter) adalah kombinasi dari dua konsep[
-    void → Menandakan bahwa fungsi tidak mengembalikan nilai.
-    async → Menandakan bahwa fungsi berjalan secara asynchronous (tidak langsung dieksekusi secara berurutan), memungkinkan penggunaan await di dalamnya.
-    dapat disimpulkan sebagai berikut : Gunakan async jika fungsi memiliki operasi yang butuh waktu (misalnya, mengambil foto, memuat data dari API, membaca file)
-    
-2. Jelaskan fungsi dari anotasi @immutable dan @override ?
-   - Fungsi dari @immutable yaitu :
-      ✅ Dapat digunakan untuk menandakan bahwa suatu class tidak boleh diubah (immutable) setelah dibuat,
-      ✅ Biasanya diterapkan pada class yang bersifat stateless (tidak berubah setelah inisialisasi).
-   - Fungsi dari @override yaitu :
-     anotasi yang digunakan ketika kita ingin mengganti (menimpa) metode dari superclass (kelas induk) di dalam subclass (kelas anak).
-     Kenapa @override Penting?
-      ✅ Memastikan metode di subclass benar-benar menggantikan metode dari superclass.
-      ✅ Mencegah kesalahan penulisan nama metode yang bisa menyebabkan bug.
-      ✅ Membantu pembaca kode memahami bahwa metode tersebut berasal dari superclass.
+### ❓ FAQ
+
+**1. Apa yang dimaksud dengan `void async` pada Praktikum 1?**
+
+`void async` dalam Dart (Flutter) adalah kombinasi dari dua konsep:
+
+* `void`: Menandakan bahwa fungsi tidak mengembalikan nilai.
+* `async`: Menandakan bahwa fungsi berjalan secara asynchronous (tidak langsung dieksekusi secara berurutan), memungkinkan penggunaan `await` di dalamnya.
+
+**Kesimpulan:** Gunakan `async` jika fungsi memiliki operasi yang membutuhkan waktu (misalnya, mengambil foto, memuat data dari API, membaca file).
+
+---
+
+## PRAKTIKUM 2: Photo Filter
+
+**Deskripsi:**
+
+Aplikasi ini merupakan pengembangan dari Praktikum 1, dengan menambahkan fitur filter foto. Pengguna dapat memilih filter dari carousel gambar yang telah disediakan untuk diterapkan pada foto yang diambil.
+
+**Fitur Utama:**
+
+* Pilihan filter tersedia dalam format carousel gambar.
+* Pengguna dapat dengan mudah memilih filter yang diinginkan.
+
+### 🖼 Screenshot Running
+
+![Screenshot aplikasi kamera](assets/filter-carousel.gif)
+_Tampilan aplikasi saat mengambil foto._
+
+### ❓ FAQ (Lanjutan)
+
+**2. Jelaskan fungsi dari anotasi `@immutable` dan `@override`?**
+
+* **Fungsi dari `@immutable` yaitu:**
+    * ✅ Dapat digunakan untuk menandakan bahwa suatu class tidak boleh diubah (immutable) setelah dibuat.
+    * ✅ Biasanya diterapkan pada class yang bersifat stateless (tidak berubah setelah inisialisasi).
+
+* **Fungsi dari `@override` yaitu:**
+    * Anotasi yang digunakan ketika kita ingin mengganti (menimpa) metode dari superclass (kelas induk) di dalam subclass (kelas anak).
+    * **Kenapa `@override` Penting?**
+        * ✅ Memastikan metode di subclass benar-benar menggantikan metode dari superclass.
+        * ✅ Mencegah kesalahan penulisan nama metode yang bisa menyebabkan bug.
+        * ✅ Membantu pembaca kode memahami bahwa metode tersebut berasal dari superclass.
+
+---
+
+## PRAKTIKUM 3: Gabungan Praktikum 1 dan Praktikum 2
+
+**Deskripsi:**
+
+Aplikasi ini merupakan pengembangan dari Praktikum 1 dan praktikum 2, dengan menambahkan fitur filter foto. Pengguna dapat memilih filter dari carousel gambar yang telah disediakan untuk diterapkan pada foto yang diambil.
+
+**Fitur Utama:**
+
+* Semua fitur dari Praktikum 1 (mengambil dan menampilkan foto).
+* Menambahkan filter pada foto yang diambil.
+* Pilihan filter tersedia dalam format carousel gambar.
+* Pengguna dapat dengan mudah memilih filter yang diinginkan.
+
+### 🖼 Screenshot Running
+
+![Screenshot aplikasi kamera](assets/photo-filter-carousel.gif)
+_Tampilan aplikasi saat mengambil foto._
+
+---
+
    
-
-    
