@@ -11,7 +11,7 @@ class DisplayPictureScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Display the Picture - NIM Anda')),
+      appBar: AppBar(title: const Text('Display the Picture -  1122140064')),
       body: PhotoFilterCarousel(imagePath: imagePath), // Menampilkan carousel filter
     );
   }
