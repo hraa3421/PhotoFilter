@@ -13,7 +13,7 @@ Aplikasi ini merupakan implementasi fitur kamera pada Flutter yang memungkinkan 
 ### 🖼 Screenshot Running
 
 ![Screenshot aplikasi kamera](assets/kamera-flutter.gif)
-_Tampilan aplikasi saat mengambil foto._
+
 
 ### ❓ FAQ
 
@@ -42,7 +42,7 @@ Aplikasi ini merupakan pengembangan dari Praktikum 1, dengan menambahkan fitur f
 ### 🖼 Screenshot Running
 
 ![Screenshot aplikasi kamera](assets/filter-carousel.gif)
-_Tampilan aplikasi saat mengambil foto._
+
 
 ### ❓ FAQ (Lanjutan)
 
@@ -77,7 +77,6 @@ Aplikasi ini merupakan pengembangan dari Praktikum 1 dan praktikum 2, dengan men
 ### 🖼 Screenshot Running
 
 ![Screenshot aplikasi kamera](assets/photo-filter-carousel.gif)
-_Tampilan aplikasi saat mengambil foto._
 
 ---
 
